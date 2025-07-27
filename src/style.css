@@ -1,0 +1,61 @@
+
+body {
+    background-color: rgb(12, 11, 20);
+}
+
+.main {
+    background-image: rgba(0, 0, 0, 0.5), url('assets/1323165.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main .container-fluid h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main .container-fluid {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.main .container-fluid button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main .imge {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+}
+.main .imge img {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
+.kartu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.kartu .card {
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(15, 8, 68);
+    color: white;
+}
+
+
